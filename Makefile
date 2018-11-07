@@ -1,3 +1,3 @@
 test:
-	@chronic coverage run -m unittest
+	coverage run -m unittest
 	coverage report
