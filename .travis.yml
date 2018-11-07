@@ -1,7 +1,5 @@
-before_install:
-  - pip install codecov
-after_success:
-  - codecov --file coverage/lcov.info --disable search
 language: python
 python: "3.5"
 script: python3 -m unittest
+after_success:
+    coveralls
