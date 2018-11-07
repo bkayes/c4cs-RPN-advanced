@@ -1,6 +1,6 @@
 language: python
 python: "3.5"
-install: coveralls
+install: pip3 install coveralls
 script: make test
 after_success:
     coveralls
