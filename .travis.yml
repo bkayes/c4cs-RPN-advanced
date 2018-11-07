@@ -1,3 +1,4 @@
+passenv = TRAVIS TRAVIS_*
 language: python
 python: "3.5"
 script: python3 -m unittest
