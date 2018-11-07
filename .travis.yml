@@ -1,7 +1,6 @@
 language: python
 python: "3.5"
-install: pip3 install coveralls
-    pip3 install termcolor
+install: pip3 install coveralls; pip3 install termcolor
 script: make test
 after_success:
     coveralls
