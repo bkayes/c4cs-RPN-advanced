@@ -1,5 +1,3 @@
-repo_token: G9d8TQ8Sa0jFHwBfkKSDY13AgzA6B6EAv
-passenv = TRAVIS TRAVIS_*
 language: python
 python: "3.5"
 before_test: pip install coveralls
